@@ -1,0 +1,86 @@
+body{
+    background: rgb(88, 87, 87);
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+
+}
+.dropdwn {
+    margin: 0px auto;
+    
+}
+nav {
+    height: 45px;
+    background: #875488;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    position: relative;
+    
+}
+.logo {
+    padding: 5px 0 0 80px;
+    width: 60px;
+    height: auto;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    margin-right: 230px;
+    
+}
+nav ul li {
+    background: #875488;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 8px;
+}
+nav ul li a:hover{
+    background: #965c95;
+    
+}
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li {
+    width: 75px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+    
+.imagen {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 45px;  
+}
+
+a:hover{
+    font-weight: bold;
+}
+.negro:hover{
+    color: black;
+}
+
+
+header {
+    top: 0%;
+    position: sticky;
+}
+.titulo {
+    text-align: center;
+}
